@@ -1,0 +1,5 @@
+In order to properly compile this software, an include\ and lib\ directory containing SDL header files and lib files respectively is required here. The lib directory needs to be separated into x64\ and x86\, with appropriate SDL.lib and SDLmain.lib files for both.
+
+In other words, just drag the files from the SDL2-devel-___-VC.zip (downloadable from the SDL2 website) such that include\ and lib\ are at the base of this directory.
+
+After the executable is compiled, move an SDL.dll file (found in the lib\ directory) in the same directory as the executable, or else it will fail to run.
