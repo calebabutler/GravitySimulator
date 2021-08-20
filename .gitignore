@@ -361,3 +361,14 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+###############################################################
+# User additions to .gitignore (not created by Visual Studio) #
+###############################################################
+
+# Ignore imgui.ini file
+GravitySimulator/imgui.ini
+
+# Ignore SDL2 files (the user should add these themself)
+GravitySimulator/SDL2/*
+!GravitySimulator/SDL2/PutSDLFilesHere.txt
